@@ -30,5 +30,7 @@ func main() {
 	// "abc" est la plus grande sous chaine composé de caractère diffèrent
 	fmt.Println(TP.Ft_max_substring("bbbbb")) // resultat : 1
 	// "b" est la plus grande sous chaine
-
+	fmt.Println("Exo6")
+	fmt.Println(TP.Ft_min_window("ADOBECODEBANC", "ABC")) // resultat : "BANC"
+	fmt.Println(TP.Ft_min_window("a", "aa"))              // resultat : ""
 }
